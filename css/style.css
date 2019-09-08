@@ -1,4 +1,7 @@
 /* Reset Code */
+.fa-my{
+    transform: rotateX(180deg);
+}
 body {
     padding: 0;
     margin: 0;
@@ -54,9 +57,9 @@ h6 {
 p {
     margin: 0;
     padding: 0;
-    font-size: 15px;
-    letter-spacing: 1px;
-    line-height: 1.9;
+    /*font-size: 15px;*/
+    /*letter-spacing: 1px;*/
+    /*line-height: 1.9;*/
     color: #999;
     font-family: 'Source Code Pro', monospace;
 }
@@ -321,7 +324,7 @@ h3.title:after {
 }
 
 .welcome-left p {
-    color: #47cfb0;
+    /*color: #47cfb0;*/
     letter-spacing: 1px;
     font-size: 18px;
 }
@@ -344,7 +347,7 @@ h3.title:after {
 
 /* services page */
 .services {
-    background: url(../images/services.jpg) no-repeat center;
+    /*background: url(../images/services.jpg) no-repeat center;*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -535,7 +538,7 @@ h3.title:after {
 
 /* gallery page */
 .gallery {
-    background: url(../images/gallery.jpg) no-repeat bottom;
+    background: url(../images/blog.jpg) no-repeat bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -632,7 +635,7 @@ h3.title:after {
 
 /* blog page */
 .blog {
-    background: url(../images/blog.jpg) repeat center;
+    background: url(../images/gallery.jpg) repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;

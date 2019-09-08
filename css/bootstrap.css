@@ -478,7 +478,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -1288,9 +1288,9 @@ pre code {
   }
   .col-lg-2 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
   }
   .col-lg-3 {
     -webkit-box-flex: 0;
@@ -1306,9 +1306,9 @@ pre code {
   }
   .col-lg-5 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
+    max-width: 40%;
   }
   .col-lg-6 {
     -webkit-box-flex: 0;
