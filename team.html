@@ -26,14 +26,11 @@
 			background-color: white;border-radius: 5px;
 			color: black;text-align: left;
 			height: 70%;
-		}
-		.div>p{
 			transform: translate(0,-150px) scale(0.5);
 			transition: all 0.3s;
 			opacity: 0;
 		}
 		.div:hover >p{
-
 			transform: translate(0,-290px) scale(0.9);
 			opacity: 0.7;
 			transition: all 0.3s;
@@ -44,11 +41,17 @@
 		}
 		.div p:hover+img{
 			transform: translate(-200%);
+			filter: opacity(1);
 			transition: all 1s;
 		}
 		.div p+img{
 			transform: translate(500%);
+			filter: opacity(0.25);
 			transition: all 2s;
+		}
+		.div p+img:hover{
+			filter: opacity(1);
+			transition: all 0.5s;
 		}
 	</style>
 	<!-- Custom-Files -->
